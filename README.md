@@ -8,7 +8,7 @@ Thanks for your interest in Altitude Labs.
 
 Here's a short exercise for us to get a sense of how you would go about coding in your day-to-day job. We are looking for more than just working code. We are looking for well-written code, good structure and an understanding of how to test your code. You are free to use Google and the internet and encouraged to ask questons if you get stuck or have any questions.
 
-When you're done, submit a pull request to this repository.
+When you're done, send a link to a public repository to us with your work.
 
 #### Exercise
 
