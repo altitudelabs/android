@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="title_psw">PASSWORD</string>
+    <string name="title_uname">USERNAME</string>
+    <string name="hint_psw">at least 8 alphabetic characters</string>
+    <string name="hint_uname">at least 8 characters</string>
+
+    <string name="title_back">BACK</string>
+    <string name="title_login">LOGIN</string>
+
+    <string name="message_hello_world">Hello World</string>
+    <string name="message_invalid_uname">Invalid username format</string>
+    <string name="message_invalid_psw">Invalid password format</string>
+    <string name="message_already_tapped">Pikachu can only be tapped once! Go back and come again!</string>
+</resources>
