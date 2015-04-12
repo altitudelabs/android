@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".login"
+    android:gravity="center">
+
+    <ImageButton
+        android:id="@+id/img"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/altitude_logo_noresize"
+        android:background="#FFFFFF"
+        android:cropToPadding="false"
+        android:adjustViewBounds="false"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="75dp"
+        android:paddingTop="75dp"
+        android:scaleType="center" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#999999"
+        android:textColor="#FFFFFF"
+        android:text="@string/Back"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        style="@style/myFont"
+        />
+
+</LinearLayout>
