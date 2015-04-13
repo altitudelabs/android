@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    tools:context=".login"
+    android:gravity="center">
+
+    <TextView
+        android:text="@string/username_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/username_label"
+        style="@style/myFont"
+         />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:layout_below="@+id/username_label"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom = "15dp"
+        android:singleLine="true"
+        android:background="@drawable/stroke_txtbox"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        style="@style/myFont" />
+
+    <TextView
+        android:text="@string/password_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/password_label"
+        style="@style/myFont"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:layout_below="@+id/username_label"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom = "15dp"
+        android:singleLine="true"
+        android:background="@drawable/stroke_txtbox"
+        style="@style/myFont"
+        android:imeOptions="actionDone|flagNoExtractUi"
+        android:password="true" />
+    
+    <Button
+        android:text="@string/LOGIN"
+        android:id="@+id/login"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginRight="15dp"
+        android:background="#999999"
+        android:clickable="true"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
