@@ -28,6 +28,7 @@
         android:layout_marginBottom = "15dp"
         android:singleLine="true"
         android:background="@drawable/stroke_txtbox"
+        android:imeOptions="actionDone|flagNoExtractUi"
         style="@style/myFont" />
 
     <TextView
@@ -51,6 +52,7 @@
         android:singleLine="true"
         android:background="@drawable/stroke_txtbox"
         style="@style/myFont"
+        android:imeOptions="actionDone|flagNoExtractUi"
         android:password="true" />
     
     <Button
