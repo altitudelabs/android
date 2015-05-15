@@ -15,7 +15,6 @@ When you're done, send a link to a public repository to us with your work.
 * Create an app that initially displays a form with controls to enter a username and password and a button to submit the form (see mockup below). When the form is submitted, check that (1) username is at least 8 characters in length and alphabetic and (2) password is at least 8 characters in length
 * If the info in the form is valid, navigate to another page and display an image and a button. The button when pressed will return to the previous screen. The image when tapped should show a message saying "Hello World"
 * If the user returns to the previous screen all information in the form should be cleared
-* Your app should handle screen rotations appropriately
 
 #### Diagram
 
